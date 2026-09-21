@@ -1,0 +1,20 @@
+# Parâmetros mestres do RM UP-01 / RMUP-01. Esquema por parâmetro:
+#   nominal, unit, lower, upper, evidence_class (A|B|C|D|E|F), status (confirmed|provisional|contested|placeholder),
+#   method, sources [SRC-…], updated, notes, depends_on [P_…]
+# Âncoras do CLAUDE.md §2 entram como `status: provisional` até a fonte primária ser registrada no manifesto.
+P_WATCH_THICKNESS: {nominal: 1.75, unit: mm, evidence_class: A, status: provisional, method: publicado pelo fabricante (a confirmar URL), sources: [], updated: 2026-09-20}
+P_MOV_LENGTH: {nominal: 41.45, unit: mm, evidence_class: A, status: provisional, method: publicado, sources: [], updated: 2026-09-20}
+P_MOV_WIDTH: {nominal: 28.85, unit: mm, evidence_class: A, status: provisional, method: publicado, sources: [], updated: 2026-09-20}
+P_MOV_THICKNESS: {nominal: 1.18, unit: mm, evidence_class: A, status: provisional, method: publicado, sources: [], updated: 2026-09-20}
+P_OSC_FREQUENCY: {nominal: 4, unit: Hz, evidence_class: A, status: provisional, method: 28800 A/h publicado, sources: [], updated: 2026-09-20}
+P_OSC_INERTIA: {nominal: 3, unit: mg·cm², evidence_class: A, status: provisional, method: publicado, sources: [], updated: 2026-09-20}
+P_ESC_LIFT_ANGLE: {nominal: 54, unit: deg, evidence_class: A, status: provisional, method: publicado, sources: [], updated: 2026-09-20}
+P_BAR_TURN_PERIOD: {nominal: 6, unit: h, lower: 5.5, upper: 6.5, evidence_class: A, status: provisional, method: "aproximadamente uma volta a cada 6 h", sources: [], updated: 2026-09-20}
+P_PWR_RESERVE: {nominal: 45, unit: h, evidence_class: A, status: provisional, method: publicado (aprox.), sources: [], updated: 2026-09-20}
+P_JWL_COUNT: {nominal: 23, unit: un, evidence_class: A, status: provisional, method: publicado, sources: [], updated: 2026-09-20}
+P_CRY_HOURS_THICKNESS: {nominal: 0.45, unit: mm, evidence_class: A, status: provisional, method: publicado, sources: [], updated: 2026-09-20}
+P_CRY_BALANCE_THICKNESS_CENTER: {nominal: 0.20, unit: mm, evidence_class: A, status: provisional, method: publicado, sources: [], updated: 2026-09-20}
+P_CRY_BALANCE_THICKNESS_EDGE: {nominal: 0.30, unit: mm, evidence_class: A, status: provisional, method: publicado, sources: [], updated: 2026-09-20}
+P_CASE_SCREW_COUNT: {nominal: 13, unit: un, evidence_class: A, status: provisional, method: publicado (spline, titânio grau 5), sources: [], updated: 2026-09-20}
+P_CASE_WATER_RESISTANCE: {nominal: 1, unit: atm, evidence_class: A, status: provisional, method: publicado (10 m), sources: [], updated: 2026-09-20}
+P_TRN_PRESSURE_ANGLE: {nominal: 20, unit: deg, evidence_class: A, status: provisional, method: "involuta central 20° citada pelo fabricante para winding-barrel e pinhão da terceira", sources: [], updated: 2026-09-20}

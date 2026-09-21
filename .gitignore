@@ -1,0 +1,8 @@
+research/videos/*.mp4
+research/images/frames/
+cad/exports/**/*.step
+cad/exports/**/*.stl
+.venv/
+node_modules/
+__pycache__/
+*.pyc
