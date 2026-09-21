@@ -17,3 +17,5 @@ research/official/*.pdf
 research/articles/*.html
 research/articles/*.pdf
 inputs/
+research/official/*.txt
+research/articles/*.txt

@@ -1,0 +1,3 @@
+frame_id,video_id,timestamp_s,timecode,arquivo,tipo_extracao,conteudo,subsistemas,utilidade,notas
+IMG-VID0002-F000001,VID-0002,0.00,00:00:00.00,research/images/frames/VID-0002/IMG-VID0002-F000001.jpg,quadro a 25 fps (1 de 18),"detalhe CG do mostrador de horas e da abertura do balanço, início do travelling",IND;OSC;CRY;CASE,media,"O clipe inteiro tem 0,72 s / 18 quadros e é um único travelling lateral curto sobre a mesma região. Não há nenhuma peça oculta revelada."
+IMG-VID0002-F000018,VID-0002,0.68,00:00:00.68,research/images/frames/VID-0002/IMG-VID0002-F000018.jpg,quadro a 25 fps (18 de 18),"mesma região, fim do travelling",IND;OSC;CRY;CASE,media,"Par F000001/F000018 dá a maior linha de base de paralaxe disponível no clipe — e ainda assim é pequena."
