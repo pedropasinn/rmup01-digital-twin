@@ -6,3 +6,14 @@ cad/exports/**/*.stl
 node_modules/
 __pycache__/
 *.pyc
+# acervo de pesquisa com direitos de terceiros: fica fora do repositório público (só o manifesto/catálogo entra)
+research/images/*.jpg
+research/images/*.jpeg
+research/images/*.png
+research/images/*.avif
+research/images/*.webp
+research/official/*.html
+research/official/*.pdf
+research/articles/*.html
+research/articles/*.pdf
+inputs/
