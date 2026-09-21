@@ -1,0 +1,122 @@
+[
+ {
+  "id": "U01",
+  "titulo": "Dossiê oficial Richard Mille: páginas, press kit, especificações",
+  "modelo": "GPT-6 Pro",
+  "run_id": "run_20260921T030231_ee6270"
+ },
+ {
+  "id": "U02",
+  "titulo": "Linha do tempo do RM UP-01 e do calibre RMUP-01",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030231_a0c7c9"
+ },
+ {
+  "id": "U03",
+  "titulo": "Patente EP3754433A1: leitura comentada das reivindicações e figuras",
+  "modelo": "GPT-6 Pro",
+  "run_id": "run_20260921T030232_b5dd42"
+ },
+ {
+  "id": "U04",
+  "titulo": "Árvore de patentes de Giulio Papi / APRP / AP Le Locle sobre escapes e ultraplanos",
+  "modelo": "GPT-6 Pro",
+  "run_id": "run_20260921T030232_665c3f"
+ },
+ {
+  "id": "U05",
+  "titulo": "Patentes e registros da Richard Mille sobre caixa e movimento ultraplanos",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030233_0a6299"
+ },
+ {
+  "id": "U06",
+  "titulo": "Imprensa técnica em inglês: resumos por subsistema",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030233_b006b9"
+ },
+ {
+  "id": "U07",
+  "titulo": "Imprensa em francês, alemão e italiano",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030234_426d5e"
+ },
+ {
+  "id": "U08",
+  "titulo": "Imprensa em japonês, chinês, espanhol e português",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030234_71c830"
+ },
+ {
+  "id": "U09",
+  "titulo": "Entrevistas: Giulio Papi, Richard Mille, Salvador Arbona e engenheiros",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030235_1fb82e"
+ },
+ {
+  "id": "U10",
+  "titulo": "Anatomia comparada dos ultraplanos: Piaget, Bulgari, AP, Vacheron, Jaeger, Richard Mille",
+  "modelo": "GPT-6 Pro",
+  "run_id": "run_20260921T030235_bffe2f"
+ },
+ {
+  "id": "U11",
+  "titulo": "Escape de alavanca suíça como baseline e o que o RMUP-01 elimina",
+  "modelo": "GPT-6 Pro",
+  "run_id": "run_20260921T030236_c080a8"
+ },
+ {
+  "id": "U12",
+  "titulo": "Balanço de três braços: faixas dimensionais a partir de 3 mg·cm², 4 Hz e titânio grau 5",
+  "modelo": "GPT-6 Pro",
+  "run_id": "run_20260921T030236_d81ef4"
+ },
+ {
+  "id": "U13",
+  "titulo": "Barrilete de rotação rápida e trem: restrições, razões e método do solver",
+  "modelo": "GPT-6 Pro",
+  "run_id": "run_20260921T030237_86c9ea"
+ },
+ {
+  "id": "U14",
+  "titulo": "Caixa em titânio grau 5, 13 parafusos spline e cristais de 0,20–0,45 mm",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030237_26ba0f"
+ },
+ {
+  "id": "U15",
+  "titulo": "Seletor de função W/H: mecanismos análogos e máquina de estados",
+  "modelo": "GPT-6 Pro",
+  "run_id": "run_20260921T030238_0c3a24"
+ },
+ {
+  "id": "U16",
+  "titulo": "Glossário trilíngue pt/en/fr da relojoaria ultraplana e do RM UP-01",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030238_46bad2"
+ },
+ {
+  "id": "U17",
+  "titulo": "Richard Mille, Renaud & Papi e a parceria Ferrari: história com fontes",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030239_a5f9d6"
+ },
+ {
+  "id": "U18",
+  "titulo": "História dos ultraplanos: de 1946 ao RM UP-01",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030240_c94e0a"
+ },
+ {
+  "id": "U19",
+  "titulo": "Metrologia por imagem: método, checklist e script para calibrar fotos oficiais",
+  "modelo": "GPT-6 Pro",
+  "run_id": "run_20260921T030240_b853b8"
+ },
+ {
+  "id": "U20",
+  "titulo": "Licenças e limites: o que um site de estudo pode publicar",
+  "modelo": "GPT-5.6 Pro",
+  "run_id": "run_20260921T030241_5f04c3"
+ }
+]

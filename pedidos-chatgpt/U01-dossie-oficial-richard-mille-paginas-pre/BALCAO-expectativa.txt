@@ -1,0 +1,1 @@
+U01: zip com a estrutura pedida, LEIA-ME.md, fontes.csv e claims.csv; verificação: URLs conferidas, classes A–F coerentes, sem medida de desenho de patente; integra em research/ e docs/
