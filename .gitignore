@@ -19,3 +19,5 @@ research/articles/*.pdf
 inputs/
 research/official/*.txt
 research/articles/*.txt
+research/images/rm-oficial/
+research/images/frames/

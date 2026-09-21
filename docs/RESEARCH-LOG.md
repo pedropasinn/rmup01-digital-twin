@@ -55,3 +55,24 @@ Chronos, anotado no manifesto para não voltar a circular.
 
 Paywall/bloqueio: Quill & Pad (duas matérias) e Forbes devolveram HTTP 403 ao acesso automatizado. Registradas no
 manifesto com o direito explicitado, **sem leitura e sem contorno**, e sem gerar claim (Q-DOC-102).
+
+- 2026-09-21 01:30 BRT — **TASK-P1-004 (catálogo de imagens e vídeo) concluído.** 36 imagens catalogadas
+  (`IMG-0001`…`IMG-0036`), 26 candidatos a landmark, 16 fontes novas (`SRC-0700`…`SRC-0715`), 11 afirmações
+  (`CLM-0700`…`CLM-0710`) e 9 questões `Q-IMG-*`.
+  **Dois achados reorganizam o corpus.** Primeiro: 12 dos 19 arquivos de entrada de Pedro não são
+  fotografias — são previews de um modelo 3D comercial de terceiro (marca d'água `Hum3D TOOLS #1319`,
+  dois deles em wireframe). Estavam a um passo de entrar no projeto como se fossem o objeto. Segundo:
+  parte do material **oficial** também é renderização, denunciada pelos próprios nomes de arquivo
+  (`3DUP3PH…`, `…CSmoothing1`, data de render anterior ao lançamento). Daí a regra nova: o catálogo marca
+  `natureza` em toda imagem e medida tirada de render oficial nasce classe E, não C.
+  **O vídeo rendeu mais que as fotos.** O filme de savoir-faire entregou a platina nua em vista quase
+  perpendicular (t = 25,42 s) — a única imagem pública em que os furos de pivô não estão cobertos por
+  pontes —, o movimento dentro da caixa em vista nadir (t = 68,46 s) e o ponteiro de perfil (t = 58,88 s),
+  que confirma visualmente a ausência de canhão. Quadros escolhidos por nitidez (variância do laplaciano)
+  dentro de 17 janelas, não por amostragem cega.
+  **Terceiro achado:** o visualizador 360 da página oficial é um sprite de 81 quadros de 800×800 cobrindo
+  360° em passos de 4,44°, em duas iluminações — 162 vistas auto-consistentes do exterior. Fecha o
+  `SRC-0012` deixado em aberto pelo TASK-P1-001.
+  Galerias de imprensa (SJX, aBlogtoWatch) não agregaram resolução e não foram baixadas. Não existe em
+  fonte pública nenhuma imagem do escape isolado, nenhuma seção, nenhum desenho cotado e nenhuma
+  desmontagem independente: limite estrutural registrado em `Q-IMG-008`.

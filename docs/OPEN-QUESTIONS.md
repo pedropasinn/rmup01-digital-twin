@@ -219,3 +219,42 @@ Numeração a partir de `-101` em cada subsistema, para não colidir com os paco
 - **Q-DOC-103** — **Não existe desmontagem pública** do RM UP-01 por terceiro. Todo material de movimento fora da
   caixa é da própria marca. Consequência: **não há nenhuma imagem pública do verso do movimento**. Enquanto isso
   valer, tudo que estiver do lado oculto será classe D ou E.
+
+## Imagens e vídeo (abertas pelo TASK-P1-004 em 2026-09-21)
+
+- **Q-IMG-001** — Não foi possível confirmar por acesso legítimo a URL exata do produto de onde saíram os 12
+  arquivos `Richard_Mille_RM_UP_01_Ferrari_1000_*.jpg`. `hum3d.com` responde 301 para `3dmodels.org`, e
+  este devolve 403 tanto a `curl` quanto a WebFetch (anti-bot). A atribuição a Hum3D/3DModels.org se apoia
+  na marca d'água queimada nas próprias imagens e no padrão de nome (`_1000_` = preview de 1000 px).
+  Suficiente para **descartar** o material como evidência (CLM-0700); insuficiente para citar a fonte com
+  precisão bibliográfica.
+- **Q-IMG-002** — Quais imagens oficiais são fotografia e quais são renderização? O critério usado aqui é
+  indiciário (nome do arquivo, data de render anterior ao lançamento, ausência total de poeira/risco,
+  sombreamento uniforme). Não existe declaração da marca. Enquanto isso, `IMG-0001`, `IMG-0006`, `IMG-0007`,
+  `IMG-0009`…`IMG-0013` estão classificadas como `render_CG_oficial` por inferência, e medidas tiradas delas
+  nascem classe E. Teste discriminante: metadados EXIF nos originais, ou uma imagem da mesma vista publicada
+  por veículo independente com equipamento identificável.
+- **Q-IMG-003** — O render oficial (`IMG-0001`, `IMG-0035`, `IMG-VID0001-K012_48`) reproduz fielmente a
+  geometria do movimento real, ou foi simplificado para comunicação? Comparar os centros medidos em
+  `IMG-0001` com os centros medidos na platina nua (`IMG-0026`) é o teste: se convergirem dentro da
+  incerteza, o render vira utilizável como guia topológico; se divergirem, cai para ilustrativo.
+- **Q-IMG-004** — A caixa é curva no eixo longo, então a silhueta de `IMG-0007` e `IMG-0011` é a envoltória
+  do sólido, não uma seção. Medir 1,75 mm ali exige decidir em que ponto do contorno a espessura publicada
+  se aplica (ponto mais espesso? centro?). Não há fonte que diga.
+- **Q-IMG-005** — A roda grande esqueletada de `IMG-0005` está em vista rasante e parcialmente fora de foco:
+  a contagem de dentes por periodicidade de borda só é possível em um arco do perímetro. Quantos dentes tem,
+  e de que roda se trata (barrilete? primeira do trem?), fica aberto.
+- **Q-IMG-006** — Entre 46 e 48 s o filme associa a legenda "we have patented an ultra-flat escapement" a um
+  plano de uma peça em vista de topo. Não está estabelecido que a peça mostrada **seja** a do escape: em
+  filme institucional a imagem e a legenda são montadas, não sincronizadas tecnicamente. Não usar essa
+  associação como evidência sem confirmação independente.
+- **Q-IMG-007** — As duas rodas montadas no prolongamento esquerdo da platina (`IMG-0026`, CLM-0705) foram
+  lidas como roda de coroa e roda de cliquet por função. Nenhuma fonte primária nomeia essas peças no
+  RMUP-01, e a arquitetura sem tige de remontoir pode ter outra topologia de corda. Fica `provisional`.
+- **Q-IMG-008** — Não existe no corpus público nenhuma imagem do movimento pelo lado da platina com as rodas
+  montadas, nenhuma vista do escape isolado, nenhuma seção, nenhum corte e nenhuma desmontagem de terceiro
+  independente. Toda a evidência visual do RM UP-01 é controlada pela marca. Isso limita estruturalmente o
+  que a Fase 5 e a Fase 9 podem afirmar — e precisa ser dito assim no site (§17 do `CLAUDE.md`).
+- **Q-IMG-009** — O sprite 360° cobre apenas a rotação em torno do eixo vertical. Não há sequência
+  equivalente em torno do eixo horizontal, o que deixa a vista de topo/base do **perfil** sem série
+  multivista. Verificar se a página oficial expõe um segundo sprite não localizado neste pacote.
