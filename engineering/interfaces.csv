@@ -1,1 +1,53 @@
 interface_id,part_a,part_b,kind(pivot|mesh|screw|press|contact|slide|jewel),evidence_class,status,notes
+IFC-001,PRT-CASE-001,PRT-CASE-002,screw,A,confirmed,"Luneta atarraxada a carrura/fundo pelos parafusos spline PRT-FST-001, com a junta PRT-CASE-003 entre elas. Quantos dos 13 fazem este servico e Q-FST-001."
+IFC-002,PRT-CASE-002,PRT-CASE-003,contact,B,provisional,Junta perimetral comprimida entre luneta e carrura; responsavel por parte da estanqueidade de 1 atm.
+IFC-003,PRT-CASE-002,PRT-CRY-001,press,E,hypothetical,"Assentamento do cristal das horas na abertura da luneta. Rebaixo, colagem ou aperto: desconhecido (Q-CRY-003). Define quanto da espessura do cristal fica acima da superficie."
+IFC-004,PRT-CASE-002,PRT-CRY-002,press,E,hypothetical,"Idem para o cristal do balanco, que e mais espesso na borda (0,30) que no centro (0,20) - a forma sugere assento pela borda."
+IFC-005,PRT-CASE-006,PRT-BASE-001,screw,B,provisional,"Cilindro roscado central atravessando o movimento junto ao canto superior direito do barrilete; recebe um parafuso de caixa e trava caixa + movimento como corpo unico (CLM-0429). Exige furo passante na platina (Q-CASE-004)."
+IFC-006,PRT-CASE-007,PRT-BAR-001,contact,B,provisional,"Rebaixo raso na face interna da caixa inferior recebendo o barrilete. Existencia observada, profundidade nao (Q-CASE-003). Se confirmado, e folga negativa no Z-budget: o movimento afunda na caixa."
+IFC-007,PRT-CASE-001,PRT-BASE-001,contact,D,provisional,"Assentamento do movimento no fundo da caixa. A repartição da folga lateral (9,55 x 10,15 mm) define a origem do sistema de coordenadas (Q-BASE-002)."
+IFC-008,PRT-CRY-001,PRT-IND-001,contact,D,provisional,"Apoio do eixo da indicacao CONTRA o cristal (CLM-0420, unica fonte, japonesa). Se confirmado, e interface cristal-movimento com efeito direto no Z-budget e exige tratamento de desgaste da safira (Q-IND-004)."
+IFC-009,PRT-CASE-002,PRT-WND-001,pivot,A,provisional,"Coroa-roda de execucao alojada em furo passante da luneta/carrura, girando em torno de eixo vertical. Geometria do mancal desconhecida (Q-WND-001)."
+IFC-010,PRT-CASE-002,PRT-WND-002,pivot,A,provisional,Idem para a coroa-roda de selecao.
+IFC-011,PRT-WND-001,PRT-CASE-004,contact,A,confirmed,"Inserto de ceramica preta em torno da coroa: pista de atrito e assento da vedacao (CLM-0020)."
+IFC-012,PRT-WND-001,PRT-WND-008,contact,B,provisional,Aro fino de ceramica vedando o eixo do comando no lugar da borracha (CLM-0426).
+IFC-013,PRT-WND-001,PRT-SEL-001,mesh,E,hypothetical,"Acoplamento entre a coroa-roda de execucao e o braco deslizante do seletor, conforme o estado W ou H. Topologia desconhecida - e o coracao da Fase 8."
+IFC-014,PRT-WND-002,PRT-SEL-002,mesh,E,hypothetical,"Acoplamento entre a coroa-roda de selecao e a came/excentrico que desloca o braco. Existencia inferida da funcao (CLM-0422)."
+IFC-015,PRT-SEL-001,PRT-WND-003,mesh,B,provisional,"Em W, o braco deslizante engata as rodas que dao corda ao barrilete (CLM-0422). Observado em still de video, nao medido."
+IFC-016,PRT-SEL-001,PRT-IND-005,mesh,E,hypothetical,"Em H, o braco engata o caminho de acerto dos ponteiros e desacopla o barrilete. Nenhuma imagem publica do lado do mostrador mostra este caminho (Q-BASE-005)."
+IFC-017,PRT-SEL-001,PRT-SEL-003,contact,E,hypothetical,Detent que mantem o braco em W ou H; existencia de posicao neutra em aberto (Q-SEL-002).
+IFC-018,PRT-WND-003,PRT-WND-004,mesh,B,provisional,"Roda de coroa engrenada na roda de cliquet, ambas visiveis montadas sobre a platina nua (IMG-0026, CLM-0705). Identificacao funcional, nao declarada (Q-IMG-005)."
+IFC-019,PRT-WND-004,PRT-BAR-002,mesh,E,hypothetical,"Acionamento do arbor do barrilete pela roda de cliquet. Necessario funcionalmente; nenhuma imagem mostra o acoplamento."
+IFC-020,PRT-WND-004,PRT-WND-005,contact,E,hypothetical,Cliquet e mola impedindo o retorno da mola durante a corda.
+IFC-021,PRT-WND-001,PRT-WND-006,contact,A,provisional,"Limitador de torque no caminho de corda (CLM-0425). Principio desconhecido (Q-WND-004): friccao, mola deslizante ou catraca."
+IFC-022,PRT-WND-007,PRT-WND-001,press,A,confirmed,"Encaixe spline de cinco entalhes entre a ferramenta dedicada e o centro de cada coroa. Mesmo encaixe nos dois comandos (CLM-0709)."
+IFC-023,PRT-BAR-001,PRT-BAR-005,slide,B,contested,"Tambor retido e guiado pelos apoios perifericos. Deslizamento (bucha BeCu) ou rolamento (rolete)? A resposta muda contagem de pecas, de rubis e a sequencia de montagem (Q-BAR-002, H-BAR-101)."
+IFC-024,PRT-BAR-005,PRT-BASE-001,press,E,hypothetical,"Fixacao dos apoios perifericos na platina. Se forem roletes, cada um tem pivo proprio e vira subconjunto."
+IFC-025,PRT-BAR-002,PRT-BASE-001,pivot,E,hypothetical,"Retencao axial do arbor sem receptaculo acima nem abaixo (Q-BAR-003). Problema de montabilidade em aberto: nao inventar pivo sem status."
+IFC-026,PRT-BAR-004,PRT-BAR-002,press,E,hypothetical,Ancoragem interna da mola no arbor.
+IFC-027,PRT-BAR-004,PRT-BAR-001,contact,E,hypothetical,"Ancoragem externa da mola na parede do tambor; a ausencia de brida deslizante e coerente com corda manual."
+IFC-028,PRT-BAR-001,PRT-TRN-001,mesh,B,provisional,"Dentado do barrilete engrenando a roda intermediaria de transmissao (CLM-0406). E o par ao qual a marca atribui involuta central com 20 graus de pressao."
+IFC-029,PRT-TRN-001,PRT-TRN-002,mesh,B,provisional,"Razao aparentemente 1:1 (Q-TRN-004): aritmeticamente um idler, o que e compativel com a razao total exigida."
+IFC-030,PRT-TRN-002,PRT-TRN-003,mesh,D,provisional,Estagio inferido pela razao total necessaria; dentes e modulo desconhecidos (Q-TRN-002).
+IFC-031,PRT-TRN-003,PRT-ESC-001,mesh,D,provisional,"Ultimo engrenamento antes do escape, se o trem tiver 3 estagios uteis; o numero de estagios e aberto (Q-TRN-003)."
+IFC-032,PRT-ESC-001,PRT-ESC-003,contact,A,provisional,"Travamento e impulso do dente de entrada na pedra de entrada. Angulos de locking, draw e drop desconhecidos (Q-ESC-002)."
+IFC-033,PRT-ESC-001,PRT-ESC-004,contact,A,provisional,Idem para a pedra de saida.
+IFC-034,PRT-ESC-002,PRT-ESC-006,contact,D,provisional,"Cheville entrando na forquilha: desengate e impulso pela parede INTERNA da corna. Topologia da familia CH832/2019."
+IFC-035,PRT-ESC-002,PRT-ESC-005,contact,D,provisional,"Parede EXTERNA das cornas contra a periferia cilindrica do plateau: e esta a funcao anti-renversement que substitui o dardo. Cada corna so entra no entalhe quando a cheville ja esta na forquilha (reiv. 1)."
+IFC-036,PRT-ESC-002,PRT-ESC-007,contact,B,provisional,"Banking solido da ancora contra entalhe usinado na platina (CLM-0412) - descricao que NAO esta na patente, que preve goupilles (Q-ESC-004)."
+IFC-037,PRT-ESC-002,PRT-BASE-001,pivot,B,provisional,"Pivo da ancora situado ENTRE as duas pedras (CLM-0413): restricao topologica forte para a Fase 9."
+IFC-038,PRT-ESC-005,PRT-OSC-003,press,D,contested,"Plateau montado no eixo do balanco - OU inexistente, se a cheville for carregada diretamente pelo balanco (reiv. 5, Q-ESC-006). As duas variantes diferem por um nivel inteiro de Z."
+IFC-039,PRT-OSC-003,PRT-SHK-001,jewel,A,provisional,"Pivos do balanco nos conjuntos antichoque Kif. Quantidade e posicao desconhecidas (Q-SHK-001)."
+IFC-040,PRT-OSC-001,PRT-OSC-003,press,E,hypothetical,Aro do balanco montado no eixo; o degrau dos bracos baixa o plano da espiral (CLM-0417).
+IFC-041,PRT-OSC-004,PRT-OSC-005,press,E,hypothetical,Extremidade interna da espiral fixada a virola.
+IFC-042,PRT-OSC-004,PRT-OSC-006,press,E,hypothetical,"Extremidade externa fixada ao piton; sem raquete, o porta-espiral e provavelmente fixo."
+IFC-043,PRT-OSC-002,PRT-OSC-001,screw,A,provisional,"Seis massas de regulagem montadas diretamente no balanco, substituindo o indice de raquete."
+IFC-044,PRT-BRG-001,PRT-BASE-001,screw,B,provisional,"Ponte de 3 bracos fixada por dois parafusos, com um furo liso servindo de assento de pino de centragem (CLM-0706)."
+IFC-045,PRT-BRG-001,PRT-JWL-000,jewel,B,provisional,Tres mancais rubinados embutidos na ponte de 3 bracos; quais eixos eles fecham e Q-BRG-002.
+IFC-046,PRT-BRG-002,PRT-BASE-001,screw,E,hypothetical,Fixacao da ponte do balanco; geometria so vista em render (IMG-0001).
+IFC-047,PRT-IND-001,PRT-IND-003,press,B,provisional,"Ponteiro decalcado diretamente sobre a roda, SEM canhao (CLM-0037, IMG-0030/0031). Substitui o motion works classico; diametro do assento desconhecido (Q-IND-005)."
+IFC-048,PRT-IND-002,PRT-IND-004,press,B,provisional,Idem para o ponteiro das horas.
+IFC-049,PRT-IND-001,PRT-IND-005,mesh,E,hypothetical,"Onde quer que esteja, a razao 12:1 entre minuto e hora se realiza no plano, nao coaxialmente (Q-IND-001)."
+IFC-050,PRT-BAR-001,PRT-IND-005,mesh,E,hypothetical,"Hipotese H-IND-101: a indicacao seria acionada pela rotacao do proprio barrilete, com razao 6:1 exata ate 1 volta/h. NAO usar como fato (Q-IND-003)."
+IFC-051,PRT-FST-001,PRT-STR-002,screw,A,confirmed,"Os mesmos 13 parafusos prendem componentes da caixa E a pulseira (CLM-0053): a interface de pulseira nao e separavel do fecho da caixa."
+IFC-052,PRT-FST-001,PRT-FST-002,contact,A,provisional,Arruela 316L resistente a abrasao sob a cabeca de cada parafuso spline.

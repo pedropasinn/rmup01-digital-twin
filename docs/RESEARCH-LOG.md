@@ -76,3 +76,48 @@ manifesto com o direito explicitado, **sem leitura e sem contorno**, e sem gerar
   Galerias de imprensa (SJX, aBlogtoWatch) não agregaram resolução e não foram baixadas. Não existe em
   fonte pública nenhuma imagem do escape isolado, nenhuma seção, nenhum desenho cotado e nenhuma
   desmontagem independente: limite estrutural registrado em `Q-IMG-008`.
+
+## 2026-09-21 — SÍNTESE DA FASE 1 (fecha a Fase 1, abre a Fase 2)
+
+Consolidação dos quatro pacotes `TASK-P1-001`…`TASK-P1-004` num corpo único de conhecimento. Não houve
+pesquisa nova: houve leitura cruzada, deduplicação, aritmética e planejamento.
+
+**Questões abertas.** As 87 questões dos quatro pacotes foram reduzidas a **81**, renumeradas em sequência
+única por subsistema, cada uma com o marco que bloqueia, o teste que a discrimina e a melhor fonte
+candidata; tabela de equivalência completa ao fim do documento (DEC-004). A consolidação revelou dois IDs
+com dois significados diferentes entre o `PATENT-TREE.md` e o `OPEN-QUESTIONS.md`, e nove lacunas que
+nenhum pacote tinha aberto — entre elas a contagem e a identidade das pontes, a mola do barrilete, a
+interface ponteiro-roda e as fixações internas.
+
+**Arquitetura.** `docs/ARCHITECTURE.md` registra a decomposição funcional com, por nó, função, peças,
+visibilidade, imagem que mostra cada peça, classe de evidência e âncoras que restringem.
+`engineering/bom-reconstructed.csv` passou de vazio a **60 peças** com `part_id` permanente e status
+explícito — incluindo três peças registradas como **inexistentes** (dardo, plateau de segurança, ponte do
+barrilete), porque ausência declarada também é conhecimento. `engineering/interfaces.csv` passou a **52
+interfaces**, das quais 22 continuam `hypothetical` e estão marcadas como tal.
+
+**O achado desta síntese: o Z-budget é por coluna, não global.** O TASK-P1-001 sugeriu que 0,45 mm de
+cristal apertaria demais a conta e que isso favorecia a hipótese dos dois cristais a 0,20 mm. Refeita
+coluna a coluna, a conta muda de sentido: a coluna do balanço fecha em 1,56 mm de material declarado, com
+0,19 mm para todas as folgas; e a coluna da indicação, com cristal de 0,45 mm, apenas exige que a região da
+indicação seja ≥ 0,06 mm mais baixa que o ponto mais alto do calibre — o que é plausível num lugar onde só
+há rodas-lâmina sem canhão, e que tem apoio indireto na observação japonesa de que o eixo da indicação se
+apoia contra o cristal. Consequência prática: **Q-CRY-001 deixa de travar a Fase 3** e vira um teste
+geométrico (DEC-005).
+
+**Aritmética registrada.** 45 h ÷ 6 h = 7,5 voltas úteis de mola. 28 800 A/h ÷ 2 = 14 400 dentes/h na roda
+de escape, logo razão total barrilete→escape de 5 760 (15 dentes), 4 800 (18) ou 4 320 (20) — e, como um
+trem suíço clássico faz ~4 500 em quatro engrenamentos, a roda intermediária observada se comporta
+aritmeticamente como *idler*, o que torna a razão 1:1 conjecturada pela Chronos **consistente** em vez de
+suspeita. Massa: 2,82 g em 1,41 cm³ de envelope significa densidade aparente de ~2,0 g/cm³ contra 4,43 do
+titânio grau 5 — o calibre é mais de metade vazio, e qualquer modelo que feche em massa sem esqueletar
+pesadamente está errado.
+
+**Planos.** `MASTER-RESEARCH-PLAN.md` (seis alvos que ainda valem busca, o que cada um dos 20 pedidos
+U01–U20 deve fechar, critérios de parada e nove gates G-R1…G-R9), `CAD-RECONSTRUCTION-PLAN.md`
+(datums, envelope, Z-budget com duas colunas, fases 3→13 com gates, divisão Fusion × CadQuery, cinco
+solvers com entradas e saídas) e `VALIDATION-PLAN.md` (testes por família, matriz forense, os 16 critérios
+do §17 mapeados a testes). Doze pacotes `TASK-P2-*` no backlog.
+
+**Conclusão de estado:** a pesquisa deixa de ser a atividade principal do projeto. O corpus é suficiente
+para começar a medir, e o risco dominante passa a ser continuar lendo em vez de medir.
