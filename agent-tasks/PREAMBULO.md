@@ -1,0 +1,12 @@
+# Preâmbulo de todo pacote de pesquisa (Fase 1)
+
+Repositório: `/home/pedro/repo/rmup01-digital-twin`. Leia primeiro `CLAUDE.md` (governança; §1 classes A–F, §3 fontes, §3.5 regras, §7 metrologia, §13 regra contra CAD bonito e falso) e `docs/PROJECT-CHARTER.md` (IDs). Depois `inputs/chatgpt-avaliacao-inicial-2026-09-20.md` (avaliação inicial, NÃO é fonte: só pistas a verificar).
+
+Regras não negociáveis:
+1. Só fontes obtidas legitimamente: páginas públicas, patentes em bases oficiais, imprensa aberta. Nada de paywall contornado, vazamento, scraping de área privada. Se uma página estiver atrás de paywall, registre título/URL/veículo e marque `rights: paywall` sem copiar conteúdo.
+2. Toda fonte vira UMA linha em `research/source-manifest.csv` (esquema no cabeçalho; `source_id` sequencial no seu bloco de IDs; `accessed_at` = 2026-09-20/21; `sha256` só de arquivo salvo localmente; `claims_supported` = lista de CLM). URL conferida com `curl -sIL --max-time 20` (status) ou WebFetch; nunca inventar URL, autor ou data. Título e língua originais preservados; tradução só para entendimento (em `research/translations/`).
+3. Toda afirmação útil vira UMA linha em `research/claims.csv` (CLM no seu bloco) com classe A–F, fontes e parâmetro quando houver; se uma âncora do `CLAUDE.md` §2 for confirmada em fonte primária, também atualize `engineering/master-parameters.yaml` (`sources`, `status: confirmed`, `method`), e registre uma linha em `evidence/evidence-ledger.csv`.
+4. Nunca transformar ausência de informação em certeza: o que não achou vira `Q-<SUB>-<NNN>` em `docs/OPEN-QUESTIONS.md`; hipóteses vão para `docs/HYPOTHESES.md` com o esquema do §5.
+5. Arquivos salvos: PDFs de patente em `research/patents/`, páginas oficiais salvas como HTML/PDF em `research/official/` (só se a licença permitir guardar; senão só o manifesto), artigos em `research/articles/` idem, imagens só com URL registrada em `research/images/catalogo.csv` (não baixe em massa; baixe as que forem tecnicamente úteis e registre `rights`).
+6. Blocos de IDs por pacote: P1-001 usa SRC-0001…0199 / CLM-0001…0199; P1-002 SRC-0200…0399 / CLM-0200…; P1-003 SRC-0400…0699 / CLM-0400…; P1-004 SRC-0700…0899 / CLM-0700…, IMG-0001…, VID-0001….
+7. Escreva `agent-tasks/review/<TASK>.md` ao fim: feito, fontes registradas (contagem por tipo/idioma), o que NÃO foi possível e por quê, questões abertas criadas, pendente. Sem commit (o diretor técnico comita). Sem Codex. Nunca pkill/pgrep -f com padrão presente na sua própria linha de comando.
